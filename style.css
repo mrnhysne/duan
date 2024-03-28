@@ -1,0 +1,82 @@
+body {
+  background-color: bisque;
+
+  border: 2px solid black;
+}
+.donviet {
+  font-size: 30px;
+  font-style: italic;
+}
+.dau {
+  display: inline-block;
+  margin-left: 1%;
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+}
+.duoi {
+  display: inline-block;
+  border-bottom: 2px solid black;
+  margin-left: 53%;
+}
+.head h1 {
+  color: #f0f;
+  border-bottom: 2px solid black;
+  display: inline-block;
+}
+
+.content {
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  color: #c3d;
+}
+
+table {
+  margin: auto;
+  width: 99%;
+  height: auto;
+  border: 2px solid black;
+  outline: auto;
+}
+
+thead {
+  font-size: 20px;
+  border: 2px solid black;
+}
+th {
+  border: 2px solid black;
+}
+tr {
+  border: 2px solid black;
+}
+td {
+  border: 2px solid black;
+}
+tbody {
+  font-size: 20px;
+}
+.linkx {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  border-radius: 5%;
+  height: 20px;
+  width: 200px;
+  border: 2px solid black;
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  background-color: pink;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  margin: 10px;
+}
+
+a:hover {
+  color: pink;
+  background-color: black;
+}

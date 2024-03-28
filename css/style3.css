@@ -1,0 +1,23 @@
+body {
+  background-image: url(/img/3.jpg);
+  text-align: center;
+}
+.quaylai {
+  margin-top: 150px;
+}
+a {
+  display: inline-block;
+  width: 100px;
+  font-size: 30px;
+  color: beige;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: rgb(102, 11, 79);
+}
+
+a:hover {
+  background-color: beige;
+  color: rgb(102, 11, 79);
+}

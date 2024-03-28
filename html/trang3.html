@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style4.css" />
+    <title>Document</title>
+  </head>
+  <body onload="playAudio()">
+    <div class="content">
+      <h1>Lời Cảm Ơn Chân Thành</h1>
+      <pre><strong>Cảm Ơn Em Luôn Tha Thứ Cho Anh HiHi 
+ I Love You!! Tặng Em 1 Bài Hát Nhé Babe</strong></pre>
+      <div id="audioContainer">
+        <audio id="myAudio" controls>
+          <source
+            src="/y2mate.com - HIEUTHUHAI  NOLOVENOLIFE prod by Kewtiie Official Lyric Video.mp3"
+            type="audio/mpeg"
+          />
+          HIEUTHUHAI
+        </audio>
+      </div>
+    </div>
+    <script>
+      function playAudio() {
+        var audio = document.getElementById("myAudio");
+        audio.play(); // Tự động phát âm thanh khi trang được tải
+      }
+      var audio = document.getElementById("myAudio");
+      audio.onplay = function () {
+        document.getElementById("audioContainer").style.backgroundColor =
+          "lightblue"; // Thay đổi màu nền khi âm thanh được phát
+      };
+      audio.onpause = function () {
+        document.getElementById("audioContainer").style.backgroundColor =
+          "#f2f2f2"; // Thay đổi màu nền khi âm thanh được tạm dừng
+      };
+    </script>
+  </body>
+</html>
